@@ -1,0 +1,103 @@
+/*Aqui esta el color de fondo*/
+
+body {
+    background-color: lightblue;
+}
+
+
+/*Aqui estan los tipos de bordes*/
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+
+/* aqui hay margenes en un div*/
+
+
+/*aqui esta el color del titulo1*/
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Lucida Console"
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-family: "Lucida Console"
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: "Lucida Console"
+}
+
+
+/*aqui hay una galeri de imagenes*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
